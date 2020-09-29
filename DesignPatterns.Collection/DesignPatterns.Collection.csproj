@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Description>This program is meant to demonstrate the most commonly used Design Patterns, grouped by their types.</Description>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Copyright>MIT</Copyright>
+    <Authors>Felipe Alberto (fealberto@gmail.com)</Authors>
+    <Company>Falberthen</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Users\falbe\Desktop\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,58 @@
+// Source of descriptions and UML https://www.dofactory.com/net/design-patterns
+[
+  {
+    "title": "Command",
+    "className": "Command",
+    "category": "Behavioral",
+    "description": "Encapsulate a request as an object, thereby letting you parameterize clients with different requests, \nqueue or log requests, and support undoable operations.\n"
+  },
+  {
+    "title": "Observer",
+    "className": "Observer",
+    "category": "Behavioral",
+    "description": "Define a one-to-many dependency between objects so that when one object changes state, \nall its dependents are notified and updated automatically.\n"
+  },
+  {
+    "title": "Strategy",
+    "className": "Strategy",
+    "category": "Behavioral",
+    "description": "Define a family of algorithms, encapsulate each one, and make them interchangeable. \nStrategy lets the algorithm vary independently from clients that use it\n"
+  },
+  {
+    "title": "Abstract Factory",
+    "className": "AbstractFactory",
+    "category": "Creational",
+    "description": "Provide an interface for creating families of related or dependent objects without specifying their concrete classes.\n"
+  },
+  {
+    "title": "Factory Method",
+    "className": "FactoryMethod",
+    "category": "Creational",
+    "description": "Define an interface for creating an object, but let subclasses decide which class to instantiate. \nFactory Method lets a class defer instantiation to subclasses.\n"
+  },
+  {
+    "title": "Singleton",
+    "className": "Singleton",
+    "category": "Creational",
+    "description": "Ensure a class has only one instance and provide a global point of access to it.\n"
+  },
+  {
+    "title": "Adapter",
+    "className": "Adapter",
+    "category": "Structural",
+    "description": "Convert the interface of a class into another interface clients expect. \nAdapter lets classes work together that couldn't otherwise because of incompatible interfaces.\n"
+  },
+  {
+    "title": "Composite",
+    "className": "Composite",
+    "category": "Structural",
+    "description": "Compose objects into tree structures to represent part-whole hierarchies. \nComposite lets clients treat individual objects and compositions of objects uniformly.\n"
+  },
+  {
+    "title": "Facade",
+    "className": "Facade",
+    "category": "Structural",
+    "description": "Provide a unified interface to a set of interfaces in a subsystem. \nFaçade defines a higher-level interface that makes the subsystem easier to use.\n"
+  } 
+
+]
