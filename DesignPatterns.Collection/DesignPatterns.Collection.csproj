@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Description>This program is meant to demonstrate the most commonly used Design Patterns, grouped by their types.</Description>
-    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <Copyright>MIT</Copyright>
     <Authors>Felipe Alberto (fealberto@gmail.com)</Authors>
     <Company>Falberthen</Company>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\Users\falbe\Desktop\LICENSE.txt">
+    <None Include="..\LICENSE.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
